@@ -1,0 +1,81 @@
+/* FONDI I FAQES */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0a0f24, #1b003a);
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #3d0066;
+    box-shadow: 0 0 15px rgba(140, 0, 255, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 15px #a000ff;
+}
+
+/* BUTONI */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 10px;
+    background: #7a00cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #a000ff;
+}
+
+.button:hover {
+    background: #b300ff;
+    box-shadow: 0 0 18px #d041ff;
+}
+
+/* FILMAT (CARDS) */
+.movie {
+    width: 85%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(140, 0, 255, 0.3);
+    box-shadow: 0 0 25px rgba(140, 0, 255, 0.4);
+    text-align: center;
+    transition: 0.35s;
+}
+
+.movie:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(180, 0, 255, 0.7);
+}
+
+/* POSTERAT */
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #8c00ff;
+    margin-bottom: 15px;
+}
+
+.movie h2 {
+    margin: 10px 0;
+    font-size: 1.8rem;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.movie p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
